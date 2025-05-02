@@ -1,0 +1,55 @@
+(version 1)
+(rule "length matching 100R"
+	(constraint length (min 2434mil) (max 2484mil))
+	(condition "A.NetClass == '100R'")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_DN0' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_DP0' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_DN1' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_DP1' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_DN2' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/CM4 High Speed/DSI1_DP2' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_DN3' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_DP3' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_CN' && AB.isCoupledDiffPair()")
+	(severity error))
+
+(rule "skew matching 100R"
+	(constraint skew (min -5mil) (max 5mil))
+	(condition "A.NetName == '/DSI1_CP' && AB.isCoupledDiffPair()")
+	(severity error))
