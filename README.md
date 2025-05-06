@@ -3,7 +3,7 @@ Raspberry CM4 MIPI DSI display shield with LED driver for Midas MDT0500B1IH-MIPI
 This shield serves as a example on how to implement alternative MIPI DSI displays to currently support ones.
 PCBA manufacturing was realized by JLCPCB.
 
-![](250319_pipad_display_bb_v02.png)
+![](docs/assets/250319_pipad_display_bb_v02.png)
 
 ## Contents
 - KiCAD schematics/board files: [CAD](CAD/)
@@ -11,6 +11,10 @@ PCBA manufacturing was realized by JLCPCB.
 - PDF of schematics: [rpi-mipi-dsi-display.pdf](CAD/rpi-mipi-dsi-display.pdf)
 - Bill of Materials: [rpi-mipi-dsi-display-BOM.xlsx](CAD/assembly/rpi-mipi-dsi-display-BOM.xlsx)
 - KiCAD PCB and pick & place files: [rpi-mipi-dsi-display_CPL1.xlsx](CAD/assembly/rpi-mipi-dsi-display_CPL1.xlsx)
+
+## Status
+Working prototype with CM4 IO board running RPI OS Bookworm (64 bit).
+![](docs/assets/IMG_2462.JPG)
 
 ## Copyright and License
 Schematic and PCB layout files are licensed under the CC BY 4.0 license.
