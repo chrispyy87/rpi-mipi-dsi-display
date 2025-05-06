@@ -1,6 +1,6 @@
 # rpi-mipi-dsi-display
 Raspberry CM4 MIPI DSI display shield with LED driver for Midas MDT0500B1IH-MIPI display https://midasdisplays.com/shop/tft/mdt0500b1ih-mipi/ employing the ILI9881C display driver.
-This shield serves as a example on how to implemnt alternative MIPI DSI displays to currently support ones.
+This shield serves as a example on how to implement alternative MIPI DSI displays to currently support ones.
 PCBA manufacturing was realized by JLCPCB.
 
 ![](250319_pipad_display_bb_v02.png)
