@@ -6,10 +6,11 @@ PCBA manufacturing was realized by JLCPCB.
 ![](250319_pipad_display_bb_v02.png)
 
 ## Contents
-- KiCAD schematics/board files:
-- KiCAD PCB and pick & place files: 
-- Bill of Materials:
-- PDF of schematics: 
+- KiCAD schematics/board files: [CAD](CAD/)
+- Gerber files: [rpi-mipi-dsi-display.zip](CAD/production/rpi-mipi-dsi-display.zip)
+- PDF of schematics: [rpi-mipi-dsi-display.pdf](CAD/rpi-mipi-dsi-display.pdf)
+- Bill of Materials: [rpi-mipi-dsi-display-BOM.xlsx](CAD/assembly/rpi-mipi-dsi-display-BOM.xlsx)
+- KiCAD PCB and pick & place files: [rpi-mipi-dsi-display_CPL1.xlsx](CAD/assembly/rpi-mipi-dsi-display_CPL1.xlsx)
 
 ## Copyright and License
 Schematic and PCB layout files are licensed under the CC BY 4.0 license.
